@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM - Screen</title>
+    <script>
+        var height = window.screen.availHeight
+        var width = window.screen.availWidth
+
+        document.write("A altura do navegador é: " + height + "<br/>")
+        document.write("A largura do navegador é: " + width + "<br/>")
+        
+        if (width < 500) {
+            document.write("Lógica para impressão de documento mobile")
+        } else {
+            document.write("Lógica para impressão de documento Web")
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
